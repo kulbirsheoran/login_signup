@@ -20,7 +20,11 @@ class _HomePageState extends State<HomePage> {
             TextField(decoration: InputDecoration(
               hintText: "Please input name"
             )
+            ),
+           TextField(decoration: InputDecoration(
+              hintText: "Please input name"
             )
+            ),
           ],
         ),
       ),
