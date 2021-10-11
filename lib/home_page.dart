@@ -22,11 +22,15 @@ class _HomePageState extends State<HomePage> {
             )
             ),
            TextField(decoration: InputDecoration(
-              hintText: "Please input name"
+              hintText: "Please input password"
             )
-            ),
+            ),SizedBox(height: 20,),
+            ElevatedButton(onPressed: (){},
+              child: Text('Sign in'),)
           ],
+
         ),
+
       ),
     );
   }
