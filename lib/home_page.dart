@@ -9,6 +9,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+  Future login()async{
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +36,7 @@ class _HomePageState extends State<HomePage> {
               ),
                 TextFormField(
                   decoration: InputDecoration(
-                      hintText: "please Input Password"
+                      hintText: "Please Input Password"
 
                   ),
                 ),
